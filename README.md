@@ -16,4 +16,8 @@ Prije nekoliko sedmica sam se sjetio ovog moda i dobio sam jaku želju da barem 
 
 ### Stvari koje su planirane za v0.4 verziju su:
 
-- [] Mod prebačen u MySQL sistem čuvanja
+
+- [ ] Mod prebačen u MySQL sistem čuvanja
+- [x] Napravljen Engine System
+- [x] Napravljen pojas System `/pojas`
+- [x] Napravljen kaciga System `/kaciga`
