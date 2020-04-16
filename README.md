@@ -1,7 +1,8 @@
 # Ultra Balkan Alpha mod
 
 ![UB Logo](https://i.imgur.com/J0K59b0.png)
-( Zahvaljujem se daddy-u za ovaj rad )
+
+##### (Zahvaljujem se daddy-u za ovaj rad)
 
 
 ## Trenutna verzija: v0.3.7 Alpha
