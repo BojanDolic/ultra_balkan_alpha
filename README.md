@@ -23,14 +23,16 @@ Prije nekoliko sedmica sam se sjetio ovog moda i dobio sam jaku želju da barem 
 - [x] Napravljen pojas sistem `/pojas`
 - [x] Napravljen kaciga sistem `/kaciga`
 - [ ] Dodane organizacije SAJ,Bolnicari i Los Surenos 13
-- [ ] Dodat sistem slotova za admine, lidere i clanove organizacija
-- [ ] Dodana komanda /clearmemberslot kojom se cisti slot igraca u organizaciji
-- [ ] Kod komande `/clearmemberslot` napravljena provjera ako je igrac online, trebamo koristiti komandu `/uninvite`
-- [ ] Svaki clan,lider ili admin kojem je ociscen slot dok je offline, pri ulasku u igricu skida mu se admin,lider ili clan
+- [x] Dodat sistem slotova za admine, lidere i clanove organizacija
+- [x] Dodana komanda `/clearmemberslot` kojom se cisti slot igraca u organizaciji
+- [x] Kod komande `/clearmemberslot` napravljena provjera ako je igrac online, trebamo koristiti komandu `/uninvite`
+- [x] Svaki clan,lider ili admin kojem je ociscen slot dok je offline, pri ulasku u igricu skida mu se admin,lider ili clan
 - [x] Dodane dodatne provjere kod komande `/invite` i `/uninvite` `/clearmemberslot`
-- [ ] Dodane komande za policiju kao što su `/duty` `/cuff` `/ubaci` `/su`
+- [x] Dodane komande za policiju kao što su `/duty` `/cuff` `/ubaci` `/su` `/arrest`
 - [x] Dodan sistem tazera. Šokira igrača kako bi ga policajac mogao uhapsiti
-
+- [x] Dodan sistem hapsenja. Hapsiti može član policije ili SAJ-a
+- [x] Potpuno izmijenjena komanda `/makeadmin`
+- [x] Dodana komanda `/clearadmin`koja čisti slot admina bez obzira da li je igrac online ili ne
 - [ ] Prerađen PayDay sistem i integrisan sa MySQLom
 - [x] Totalno promijenjen TD sata i datuma
 - [x] Izmapana Granica
