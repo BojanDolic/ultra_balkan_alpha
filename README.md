@@ -70,5 +70,5 @@ Prije nekoliko sedmica sam se sjetio ovog moda i dobio sam jaku želju da barem 
 - [x] Junkbuster prebacen sa verzije v10 na v11
 - [x] POPRAVLJENI SVI BUGOVI KOJE SAM PRONAŠAO
 
-##NOTE: Vjerovatno ima još dosta stvari koje ne rade dobro ili nisu dovršene do kraja
+### NOTE: Vjerovatno ima još dosta stvari koje ne rade dobro ili nisu dovršene do kraja, ali uz malo truda može se lako prepraviti. Pored toga ima tu još dosta mjesta za optimizaciju moda.
 
