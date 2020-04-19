@@ -5,7 +5,7 @@
 ##### (Zahvaljujem se daddy-u za ovaj rad)
 
 
-## Trenutna verzija: v0.3.7 Alpha
+## Trenutna verzija: v0.4 Alpha
 
 ### O modu
 
@@ -18,11 +18,11 @@ Prije nekoliko sedmica sam se sjetio ovog moda i dobio sam jaku želju da barem 
 ### Stvari koje se mogu očekivati u v0.4 su:
 
 
-- [ ] Mod prebačen u MySQL sistem čuvanja
+- [x] Mod prebačen u MySQL sistem čuvanja
 - [x] Napravljen engine sistem
 - [x] Napravljen pojas sistem `/pojas`
 - [x] Napravljen kaciga sistem `/kaciga`
-- [ ] Dodane organizacije SAJ,Bolnicari i Los Surenos 13
+- [x] Dodane organizacije SAJ,Bolnicari i Los Surenos 13
 - [x] Dodat sistem slotova za admine, lidere i clanove organizacija
 - [x] Dodana komanda `/clearmemberslot` kojom se cisti slot igraca u organizaciji
 - [x] Kod komande `/clearmemberslot` napravljena provjera ako je igrac online, trebamo koristiti komandu `/uninvite`
@@ -33,7 +33,7 @@ Prije nekoliko sedmica sam se sjetio ovog moda i dobio sam jaku želju da barem 
 - [x] Dodan sistem hapsenja. Hapsiti može član policije ili SAJ-a
 - [x] Potpuno izmijenjena komanda `/makeadmin`
 - [x] Dodana komanda `/clearadmin`koja čisti slot admina bez obzira da li je igrac online ili ne
-- [ ] Prerađen PayDay sistem i integrisan sa MySQLom
+- [x] Prerađen PayDay sistem i integrisan sa MySQLom
 - [x] Totalno promijenjen TD sata i datuma
 - [x] Izmapana Granica
 - [x] Dodana komanda `/granica` za prelaz granice
@@ -41,10 +41,10 @@ Prije nekoliko sedmica sam se sjetio ovog moda i dobio sam jaku želju da barem 
 - [x] Dodana komanda `/radio`
 - [x] Dodani labeli u Auto Skoli (enterijeru)
 - [x] Dodan Wanted Level sistem
-- [ ] Dodana Pljacka Banke
+- [x] Dodana Pljacka Banke
 - [x] Dodan Zatvor sistem
 - [x] Izmapan Zatvor
-- [ ] Uradjene neke ispravke i dopune oko tekstova
+- [x] Uradjene neke ispravke i dopune oko tekstova
 - [x] Izmapan posao Deminer
 - [x] Uradjen sistem minskog polja 
 - [x] Napravljen posao Deminer
@@ -66,5 +66,7 @@ Prije nekoliko sedmica sam se sjetio ovog moda i dobio sam jaku želju da barem 
 - [x] Sve komande prebacene iz ZCMD u YCMD
 - [x] Od sada se igrac spawna sa punim heltom a ne sa pola (nmp. zasto sam stavio sa pola)
 - [x] Junkbuster prebacen sa verzije v10 na v11
-- [ ] POPRAVLJENI SVI BUGOVI KOJE SAM PRONAŠAO
+- [x] POPRAVLJENI SVI BUGOVI KOJE SAM PRONAŠAO
+
+##NOTE: ### Vjerovatno ima još dosta stvari koje ne rade dobro ili nisu dovršene do kraja
 
