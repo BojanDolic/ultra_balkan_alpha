@@ -19,6 +19,8 @@ Prije nekoliko sedmica sam se sjetio ovog moda i dobio sam jaku želju da barem 
 
 
 - [x] Mod prebačen u MySQL sistem čuvanja
+- [x] Napravljena mala optimizacija moda (možda oko 20%)
+- [x] Neke od komandi ili funkcija su potpuno prerađene i poboljšane
 - [x] Napravljen engine sistem
 - [x] Napravljen pojas sistem `/pojas`
 - [x] Napravljen kaciga sistem `/kaciga`
@@ -54,7 +56,7 @@ Prije nekoliko sedmica sam se sjetio ovog moda i dobio sam jaku želju da barem 
 - [x] Napravljena komanda `/izvadiminu` za deminiranje
 - [x] Dodani 3D labeli za `/takejob` i `/oprema` kod deminera
 - [x] Dodani 3D labeli oko posla deminer za upozorenje na mine
-- [ ] Promijenjen skin Admin-a na 299 jer ce se 294 skin koristiti
+- [x] Promijenjen skin Admin-a na 217 jer ce se 294 skin koristiti
 - [x] Dodana provjera pri komandi /pay da ne moze placati ako je manji lvl od 3
 - [x] Napravljena komanda `/sethp` koja setuje hp igracu
 - [x] Dodana mala pomoc oko `/makeadmin` komande
