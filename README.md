@@ -15,7 +15,7 @@ Kreiranje ovog moda je ujedno i bilo neko moje "učenje" PAWN jezika.
 Nakon nekog vremena sam odustao od SAMP-a i skriptanja uopšte tako da je ovaj mod ostao u zaboravu.
 Prije nekoliko sedmica sam se sjetio ovog moda i dobio sam jaku želju da barem završim gdje sam stao 2016, da ga malo možda poboljšam i objavim jer bi neko možda mogao nešto i napraviti od ovog moda.
 
-### Stvari koje se mogu očekivati u v0.4 su:
+### Changelog v0.4:
 
 
 - [x] Mod prebačen u MySQL sistem čuvanja
