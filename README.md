@@ -1,32 +1,74 @@
-PawnPlus v1.2
-==========
+# Ultra Balkan Alpha mod
 
-_PawnPlus_ extends the possibilities of the Pawn scripting language with new constructs, data types, and programming techniques.
+![UB Logo](https://i.imgur.com/J0K59b0.png)
 
-With this plugin, you can use techniques like asynchronous task-based programming, reflection, hooking, and dynamic structures to make programming in Pawn easier, simpler, and more efficient.
+##### (Zahvaljujem se daddy-u za ovaj rad)
 
-_PawnPlus_ introduces dynamically sized strings, lists, linked lists, and maps. Collections can contain any number of elements of any type (cells or arrays) and any tag. They can be iterated using versatile iterator objects. Tasks can be used to execute code based on a specific event, without creating additional callbacks and without blocking the program.
 
-Several new object types use the garbage collector present in the plugin, removing the need to explicitly delete memory in most cases.
+## Trenutna verzija: v0.4 Alpha
 
-## Documentation
-See the [wiki](//github.com/IllidanS4/PawnPlus/wiki) for documentation and tutorials on how to use this plugin.
+### O modu
 
-## Installation
-Download the latest [release](//github.com/IllidanS4/PawnPlus/releases/latest) for your platform to the "plugins" directory and add "PawnPlus" (or "PawnPlus.so" on Linux) to the `plugins` line in server.cfg.
+Ovo je repo Ultra Balkan Alpha moda kojeg sam započeo davne 2016 godine.
+Kreiranje ovog moda je ujedno i bilo neko moje "učenje" PAWN jezika.
 
-Include [PawnPlus.inc](pawno/include/PawnPlus.inc) in your Pawn program and you are done.
+Nakon nekog vremena sam odustao od SAMP-a i skriptanja uopšte tako da je ovaj mod ostao u zaboravu.
+Prije nekoliko sedmica sam se sjetio ovog moda i dobio sam jaku želju da barem završim gdje sam stao 2016, da ga malo možda poboljšam i objavim jer bi neko možda mogao nešto i napraviti od ovog moda.
 
-## Configuration
-This plugin can optionally add a number of syntax features to Pawn like additional statements or operators. These are not available by default due to conflicts with other libraries, but you can use them all if you define `PP_SYNTAX`, or selectively via other definitions. If you are writing a library, it is recommended not to use any configuration definitions.
+### Stvari koje se mogu očekivati u v0.4 su:
 
-## Building
-Use Visual Studio to build the project on Windows, or `make` or `make static` on Linux. Requires GCC >= 4.9.
 
-## Credits
-* [Zeex](//github.com/Zeex) for creating [subhook](//github.com/Zeex/subhook) without which this wouldn't be possible.
-* [Y_Less](//github.com/Y-Less/) for help with macros for generic functions.
-* [TommyB](//github.com/TommyB123) for thorough testing and bug-finding.
-* [Southclaws](//github.com/Southclaws/) and [AGraber](//github.com/AGraber) for minor contributions.
+- [x] Mod prebačen u MySQL sistem čuvanja
+- [x] Napravljena mala optimizacija moda (možda oko 20%)
+- [x] Neke od komandi ili funkcija su potpuno prerađene i poboljšane
+- [x] Napravljen engine sistem
+- [x] Napravljen pojas sistem `/pojas`
+- [x] Napravljen kaciga sistem `/kaciga`
+- [x] Dodane organizacije SAJ,Bolnicari i Los Surenos 13
+- [x] Dodat sistem slotova za admine, lidere i clanove organizacija
+- [x] Dodana komanda `/clearmemberslot` kojom se cisti slot igraca u organizaciji
+- [x] Kod komande `/clearmemberslot` napravljena provjera ako je igrac online, trebamo koristiti komandu `/uninvite`
+- [x] Svaki clan,lider ili admin kojem je ociscen slot dok je offline, pri ulasku u igricu skida mu se admin,lider ili clan
+- [x] Dodane dodatne provjere kod komande `/invite` i `/uninvite` `/clearmemberslot`
+- [x] Dodane komande za policiju kao što su `/duty` `/cuff` `/ubaci` `/su` `/arrest`
+- [x] Dodan sistem tazera. Šokira igrača kako bi ga policajac mogao uhapsiti
+- [x] Dodan sistem hapsenja. Hapsiti može član policije ili SAJ-a
+- [x] Potpuno izmijenjena komanda `/makeadmin`
+- [x] Dodana komanda `/clearadmin`koja čisti slot admina bez obzira da li je igrac online ili ne
+- [x] Prerađen PayDay sistem i integrisan sa MySQLom
+- [x] Totalno promijenjen TD sata i datuma
+- [x] Izmapana Granica
+- [x] Dodana komanda `/granica` za prelaz granice
+- [x] Dodan pasos sistem, ako nemate pasos ne mozete prijeci granicu
+- [x] Dodana komanda `/radio`
+- [x] Dodani labeli u Auto Skoli (enterijeru)
+- [x] Dodan Wanted Level sistem
+- [x] Dodana Pljacka Banke
+- [x] Dodan Zatvor sistem
+- [x] Izmapan Zatvor
+- [x] Uradjene neke ispravke i dopune oko tekstova
+- [x] Izmapan posao Deminer
+- [x] Uradjen sistem minskog polja 
+- [x] Napravljen posao Deminer
+- [x] Napravljena komanda `/deminiraj`
+- [x] Napravljena komanda `/oprema` za uzimanje opreme kod deminera
+- [x] Napravljena komanda `/skiniopremu` za skidanje opreme kod deminera
+- [x] Napravljena komanda `/izvadiminu` za deminiranje
+- [x] Dodani 3D labeli za `/takejob` i `/oprema` kod deminera
+- [x] Dodani 3D labeli oko posla deminer za upozorenje na mine
+- [x] Promijenjen skin Admin-a na 217 jer ce se 294 skin koristiti
+- [x] Dodana provjera pri komandi /pay da ne moze placati ako je manji lvl od 3
+- [x] Napravljena komanda `/sethp` koja setuje hp igracu
+- [x] Dodana mala pomoc oko `/makeadmin` komande
+- [x] Dopunjen tekst u dialogu za uplatu polaganja
+- [x] Dodana mapa "Izgradnja zgrade" kod bolnice
+- [x] Dodana mala mapa kod trga bolnice
+- [x] Dodan tekst dobrodoslice pri prvom spawnu
+- [x] Dodani novi tdovi sata datuma i promijenjena boja gornjih TD-ova u narandžastu
+- [x] Sve komande prebacene iz ZCMD u YCMD
+- [x] Od sada se igrac spawna sa punim heltom a ne sa pola (nmp. zasto sam stavio sa pola)
+- [x] Junkbuster prebacen sa verzije v10 na v11
+- [x] POPRAVLJENI SVI BUGOVI KOJE SAM PRONAŠAO
 
-Thanks to all _PawnPlus_ users for your support! 
+### NOTE: Vjerovatno ima još dosta stvari koje ne rade dobro ili nisu dovršene do kraja, ali uz malo truda može se lako prepraviti. Pored toga ima tu još dosta mjesta za optimizaciju moda.
+
