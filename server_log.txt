@@ -1,0 +1,155 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[11:20:34] 
+[11:20:34] Server Plugins
+[11:20:34] --------------
+[11:20:34]  Loading plugin: mysql
+[11:20:34]  >> plugin.mysql: R41-4 successfully loaded.
+[11:20:34]   Loaded.
+[11:20:34]  Loading plugin: sscanf
+[11:20:34] 
+
+[11:20:34]  ===============================
+
+[11:20:34]       sscanf plugin loaded.     
+
+[11:20:34]          Version:  2.8.3        
+
+[11:20:34]   (c) 2018 Alex "Y_Less" Cole  
+
+[11:20:34]  ===============================
+
+[11:20:34]   Loaded.
+[11:20:34]  Loading plugin: streamer
+[11:20:34] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[11:20:34]   Loaded.
+[11:20:34]  Loaded 3 plugins.
+
+[11:20:34] 
+[11:20:34] Filterscripts
+[11:20:34] ---------------
+[11:20:34]   Loading filterscript 'JunkBuster.amx'...
+[11:20:34] [junkbuster] Loading JunkBuster...
+[11:20:34]  
+[11:20:34] [junkbuster] Current JunkBuster configuration: 
+[11:20:34] [junkbuster] - WeaponHack = 1
+[11:20:34] [junkbuster] - MoneyHack = 1
+[11:20:34] [junkbuster] - Jetpack = 1
+[11:20:34] [junkbuster] - HealthHack = 1
+[11:20:34] [junkbuster] - ArmourHack = 1
+[11:20:34] [junkbuster] - DriveBy = 3
+[11:20:34] [junkbuster] - Spam = 0
+[11:20:34] [junkbuster] - CommandSpam = 0
+[11:20:34] [junkbuster] - BadWords = 1
+[11:20:34] [junkbuster] - CarJackHack = 1
+[11:20:34] [junkbuster] - TeleportHack = 1
+[11:20:34] [junkbuster] - MaxPing = 1000
+[11:20:34] [junkbuster] - SpectateHack = 1
+[11:20:34] [junkbuster] - Blacklist = 1
+[11:20:34] [junkbuster] - IpBans = 1
+[11:20:34] [junkbuster] - TempBans = 1
+[11:20:34] [junkbuster] - SpawnKill = 3
+[11:20:34] [junkbuster] - CapsLock = 1
+[11:20:34] [junkbuster] - 3DSpeed = 1
+[11:20:34] [junkbuster] - MaxSpeed = 230
+[11:20:34] [junkbuster] - AdminImmunity = 1
+[11:20:34] [junkbuster] - Advertisement = 1
+[11:20:34] [junkbuster] - FreezeUpdate = 0
+[11:20:34] [junkbuster] - SpawnTime = 10
+[11:20:34] [junkbuster] - CheckpointTeleport = 1
+[11:20:34] [junkbuster] - Airbrake = 150
+[11:20:34] [junkbuster] - TankMode = 1
+[11:20:34] [junkbuster] - WarnPlayers = 1
+[11:20:34] [junkbuster] - SingleplayerCheats = 1
+[11:20:34] [junkbuster] - MinFPS = 1
+[11:20:34] [junkbuster] - DisableBadWeapons = 1
+[11:20:34] [junkbuster] - CBug = 16
+[11:20:34] [junkbuster] - AntiBugKill = 1
+[11:20:34] [junkbuster] - NoReload = 1
+[11:20:34] [junkbuster] - NoReloadForSawnOff = 1
+[11:20:34] [junkbuster] - ActiveGMC = 2
+[11:20:34] [junkbuster] - GMCBan = 1
+[11:20:34] [junkbuster] - ServerSideHealth = 1
+[11:20:34] [junkbuster] - CheckVMPos = 1
+[11:20:34] [junkbuster] - QuickTurn = 1
+[11:20:34] [junkbuster] - VehicleTeleport = 1
+[11:20:34] [junkbuster] - Wallride = 170
+[11:20:34] [junkbuster] - DisplayTextDraw = 1
+[11:20:34] [junkbuster] - AFK = 0
+[11:20:35] [junkbuster] - PickupTeleport = 1
+[11:20:35] [junkbuster] - FlyHack = 40
+[11:20:35] [junkbuster] - JunkBusterChrome = 1
+[11:20:35] [junkbuster] - CheckWalkAnims = 1
+[11:20:35] [junkbuster] - ReportMoneyHack = 1
+[11:20:35] [junkbuster] - SpeedhackAdvanced = 20
+[11:20:35] [junkbuster] - Joypad = 1
+[11:20:35] [junkbuster] - ArmedVehicles = 1
+[11:20:35] [junkbuster] - VehicleRepair = 2
+[11:20:35] [junkbuster] - TuningHack = 1
+[11:20:35] [junkbuster] - PayForGuns = 1
+[11:20:35] [junkbuster] - SpawnVehicles = 2
+[11:20:35] [junkbuster] - MaxTotalWarnings = 15
+[11:20:35] [junkbuster] - TooManyWarningsAction = 1
+[11:20:35] [junkbuster] - AirbrakeDetection = 1
+[11:20:35] [junkbuster] - SpeedhackDetection = 1
+[11:20:35]  
+[11:20:35] [junkbuster] 0 IP-bans have been loaded.
+[11:20:35] [junkbuster] 0 temporary bans have been loaded.
+[11:20:35] [junkbuster] 0 whitelist entries have been loaded.
+[11:20:35] [junkbuster] 5 blacklist entries have been loaded.
+[11:20:35] [junkbuster] 66 bad words have been loaded.
+[11:20:35] [junkbuster] 3 forbidden weapons have been loaded.
+[11:20:35] [junkbuster] JunkBuster has been configurated.
+[11:20:35] [junkbuster] JunkBuster (v11) has successfully been loaded.
+[11:20:35]   Loaded 1 filterscripts.
+
+[11:20:35]  
+[11:20:35]  
+[11:20:35]  
+[11:20:35]  ======================================= 
+[11:20:35]  |                                     | 
+[11:20:35]  |        YSI version 3.09.0684        | 
+[11:20:35]  |        By Alex "Y_Less" Cole        | 
+[11:20:35]  |                                     | 
+[11:20:35]  ======================================= 
+[11:20:35]  
+[11:20:35]  
+[11:20:35]  
+[11:20:35] ========================================================
+[11:20:35] =                                                      =
+[11:20:35] =     **          **        ******        ******       =
+[11:20:35] =      **        **        **   **       **    **      =
+[11:20:35] =       **      **        **    **       **    **      =
+[11:20:35] =        **    **        **     **       **    **      =
+[11:20:35] =         **  **        ************     **    **      =
+[11:20:35] =          ****                 **       **    **      =
+[11:20:35] =           *                   **   **   ******       =
+[11:20:35] =                                                      =
+[11:20:35] ========================================================
+[11:20:35] =======================================================
+[11:20:35] 	    VERZIJA MODA: v0.4 Alpha
+[11:20:35] 	    ZADNJI UPDATE: 19.04.2020
+[11:20:35] ===============================================
+[11:20:35] Number of vehicle models: 9
+[11:20:52] [connection] 127.0.0.1:53577 requests connection cookie.
+[11:20:53] [connection] incoming connection: 127.0.0.1:53577 id: 0
+[11:20:54] [join] Test_Test has joined the server (0:127.0.0.1)
+[11:20:54] Ne postoji igrac u bazi
+[11:32:23] [connection] 127.0.0.1:63594 requests connection cookie.
+[11:32:23] [connection] incoming connection: 127.0.0.1:63594 id: 1
+[11:33:00] [connection] 127.0.0.1:57240 requests connection cookie.
+[11:33:00] [connection] incoming connection: 127.0.0.1:57240 id: 1
+[11:33:00] [join] Test_Testing has joined the server (1:127.0.0.1)
+[11:33:00] Ne postoji igrac u bazi
+[11:34:44] [part] Test_Test has left the server (0:1)
+[11:34:55] [part] Test_Testing has left the server (1:1)
